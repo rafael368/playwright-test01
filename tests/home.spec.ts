@@ -26,7 +26,7 @@ test.beforeEach(({ page }) => {
     dropdown = new DropdownPage(page)
 })
 
-test('Made the Login with sucessfull', async ({ }) => {
+test('Made the Login with sucessfull x', async ({ }) => {
     await homePage.go()
     await loginPage.Login(login.username, login.password)
 });
